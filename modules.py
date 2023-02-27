@@ -52,7 +52,7 @@ def Create_WordCloud(selected_user,df):
 
 def most_common_words(selected_user,df):
 
-    f = open('C:/Users/Rohan/WhatApp-Analyzer/stop_hinglish.txt','r')
+    f = open('stop_hinglish.txt','r')
     stop_words =  f.read()
 
     if selected_user != 'Overall':
@@ -118,7 +118,7 @@ def month_activity_map(selected_user,df):
 
 def analyze_sentiment(selected_user,df):
 
-    f = open('C:/Users/Rohan/WhatApp-Analyzer/stop_hinglish.txt','r')
+    f = open('stop_hinglish.txt','r')
     stop_words =  f.read()
 
     if selected_user != 'Overall':
